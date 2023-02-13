@@ -40,6 +40,6 @@ public class Sorter {
     }
 
     public void sort(int[] arr){
-        selectionSort(arr);
+        insertionSort(arr);
     }
 }
