@@ -39,11 +39,9 @@ public class Sorter {
             arr[r + 1] = key;
         }
     }
-    public void sort(int[] arr){
-        insertionsort(arr);
-    }
 
     public void sort(int[] arr){
         selectionSort(arr);
     }
+
 }
