@@ -42,4 +42,8 @@ public class Sorter {
     public void sort(int[] arr){
         insertionsort(arr);
     }
+
+    public void sort(int[] arr){
+        selectionSort(arr);
+    }
 }
